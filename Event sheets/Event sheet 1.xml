@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="1" name="GAPSIZE" sid="181894083303103" static="0" type="number">175</variable>
+        <variable constant="0" name="isDead" sid="617685113623583" static="0" type="number">0</variable>
+        <variable constant="0" name="Score" sid="882726423624608" static="0" type="number">0</variable>
+        <event-group description="" sid="817226617199883" title="Game">
+            <sub-events>
+                <event-group description="" sid="258867381160684" title="Init">
+                    <sub-events>
+                        <event-block sid="472642663814680">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="437275369377484" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="830616553080777" type="TiledBackground">
+                                    <param id="0" name="Angle">-180</param>
+                                </action>
+                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="624673869555423" type="ground">
+                                    <param id="0" name="Angle">-180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="826521573532427" title="State">
+                    <sub-events>
+                        <event-block sid="891415560622903">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="354026324640845" type="System">
+                                    <param id="0" name="Variable">isDead</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="728061338751241" type="ground">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="182356926192125" type="TiledBackground">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="816232454905482" type="pipe_bottom">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="284599094556052" type="pipe_top">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="522954810706540" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="173355661683502" type="System" />
+                                <action id="-26" name="Restart layout" sid="181389768546238" type="System" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="617775306236697">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="285890166645239" type="System">
+                            <param id="0" name="Interval (seconds)">1.5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="639337887570777" type="System">
+                            <param id="0" name="Variable">isDead</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="834316790216887" type="System">
+                            <param id="0" name="Object to create">pipe_top</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">480</param>
+                            <param id="3" name="Y">int(random(110,345))</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="277190435891051" type="System">
+                            <param id="0" name="Object to create">pipe_bottom</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">480</param>
+                            <param id="3" name="Y">int(pipe_top.Y+GAPSIZE)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="953168399355708" title="Background">
+            <sub-events>
+                <event-block sid="405320057405745">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="670416072157838" type="TiledBackground">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">-1*(TiledBackground.Width-WindowWidth)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="725246921581103" type="TiledBackground">
+                            <param id="0" name="X">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="957620569758927">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="424770462226090" type="ground">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">-1*(ground.Width-WindowWidth)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="958879936530814" type="ground">
+                            <param id="0" name="X">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="262715346772963" title="Bird">
+            <sub-events>
+                <event-block sid="100452079768740">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="857579587485133" type="Keyboard">
+                            <param id="0" name="Key">32 (Space)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="837820365529320" type="System">
+                            <param id="0" name="Variable">isDead</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="9" name="Set vector Y" sid="179802802133520" type="bird">
+                            <param id="0" name="Vector Y">-600</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="968403645934760">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="928847239301198" type="System">
+                            <param id="0" name="First value">bird.Platform.VectorY</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-20" name="Rotate toward angle" sid="751250725010275" type="bird">
+                            <param id="0" name="Degrees">10</param>
+                            <param id="1" name="Angle">45</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="405276217828658">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="871793123400063" type="System">
+                            <param id="0" name="First value">bird.Platform.VectorY</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-20" name="Rotate toward angle" sid="171114583329801" type="bird">
+                            <param id="0" name="Degrees">10</param>
+                            <param id="1" name="Angle">-45</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="693810981154743" title="Collision">
+            <sub-events>
+                <event-block any="1" sid="369412785572143">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="246272032869446" type="bird">
+                            <param id="0" name="Object">pipe_top</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="832543217831022" type="bird">
+                            <param id="0" name="Object">pipe_bottom</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="514223362084858" type="bird">
+                            <param id="0" name="Object">ground</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="641477807615974" type="System">
+                            <param id="0" name="Variable">isDead</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="865615640685346">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="252351613555722" type="pipe_top">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">bird.X</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="332359378657606" type="pipe_top">
+                    <param id="0" name="Instance variable">passed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="211038629807489" type="pipe_top">
+                    <param id="0" name="Instance variable">passed</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="236863596152128" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="834844552292408" type="Text">
+                    <param id="0" name="Text">Score</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
