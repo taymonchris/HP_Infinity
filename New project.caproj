@@ -14,17 +14,18 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="brightness">Brightness</effect>
-        <effect author="chrisbrobs" id="directionblur">DirectionBlur</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -80,14 +81,10 @@
                     <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
-            <effects>
-                <effect-type name="DirectionBlur">
-                    <effect id="directionblur" />
-                </effect-type>
-            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741725064782910" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Magic Spawn" x="1.14063" y="0.444444" />
                         <collision-poly>
                             <point x="0.414062" y="0.416667" />
                             <point x="0.5" y="0.333333" />
@@ -152,6 +149,28 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Magic" sid="283900743813776">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="570935547921327">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="217921309460670">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697699335526690" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\lichk\Desktop\Pos\Magic.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MagicBar" sid="522712157458881">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="MagicMeter" sid="947771531591377">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

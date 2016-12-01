@@ -61,6 +61,35 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="obscurus" uid="0">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>652</x>
+                        <y>-20</y>
+                        <z>0</z>
+                        <width>1305</width>
+                        <height>66</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -94,7 +123,7 @@
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
                                 <jump-strength>1000</jump-strength>
-                                <gravity>2000</gravity>
+                                <gravity>1000</gravity>
                                 <max-fall-speed>1600</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
@@ -103,14 +132,6 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="DirectionBlur">
-                            <parameters>
-                                <angle>0</angle>
-                                <bluramount>0</bluramount>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -248,6 +269,42 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Magic" uid="8">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="CustomMovement">
+                            <properties>
+                                <stepping-mode>Linear</stepping-mode>
+                                <pixels-per-step>5</pixels-per-step>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1428</x>
+                        <y>391</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -290,6 +347,54 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MagicBar" uid="9">
+                    <properties>
+                        <value>100</value>
+                        <maximum>100</maximum>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <id-optional></id-optional>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>506</x>
+                        <y>670</y>
+                        <z>0</z>
+                        <width>282.588043213</width>
+                        <height>35.323505402</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="MagicMeter" uid="10">
+                    <properties>
+                        <text>Magic Meter</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-32,700,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>506</x>
+                        <y>636</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

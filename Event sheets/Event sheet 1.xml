@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="MagicEnabled" sid="119233102417222" static="0" type="number">1</variable>
         <variable constant="1" name="GAPSIZE" sid="181894083303103" static="0" type="number">175</variable>
         <variable constant="0" name="isDead" sid="617685113623583" static="0" type="number">0</variable>
         <variable constant="0" name="Score" sid="882726423624608" static="0" type="number">0</variable>
@@ -109,7 +110,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="262715346772963" title="Bird">
+        <event-group description="" sid="262715346772963" title="Player">
             <sub-events>
                 <event-block sid="100452079768740">
                     <conditions>
@@ -138,8 +139,8 @@
                     </conditions>
                     <actions>
                         <action id="-20" name="Rotate toward angle" sid="751250725010275" type="harry">
-                            <param id="0" name="Degrees">10</param>
-                            <param id="1" name="Angle">45</param>
+                            <param id="0" name="Degrees">2</param>
+                            <param id="1" name="Angle">15</param>
                         </action>
                     </actions>
                 </event-block>
@@ -153,15 +154,84 @@
                     </conditions>
                     <actions>
                         <action id="-20" name="Rotate toward angle" sid="171114583329801" type="harry">
-                            <param id="0" name="Degrees">10</param>
-                            <param id="1" name="Angle">-45</param>
+                            <param id="0" name="Degrees">2</param>
+                            <param id="1" name="Angle">-15</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="136393965301844">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="262116518049871" type="Keyboard">
+                    <param id="0" name="Key">17 (Ctrl)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="865065742780477" type="System">
+                    <param id="0" name="Variable">MagicEnabled</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="113724610204234" type="harry">
+                    <param id="0" name="Object">Magic</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="185091680508351" type="Magic">
+                    <param id="0" name="Acceleration">18000</param>
+                    <param id="1" name="X">1400</param>
+                    <param id="2" name="Y">Self.Y</param>
+                </action>
+                <action id="-9" name="Set value" sid="123143222967574" type="System">
+                    <param id="0" name="Variable">MagicEnabled</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="3" name="Set progress" sid="220976235521923" type="MagicBar">
+                    <param id="0" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="474729853635830">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="512290479498706" type="System">
+                    <param id="0" name="Variable">MagicEnabled</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="535375439815001" type="System">
+                    <param id="0" name="Interval (seconds)">8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="746728109523469" type="System">
+                    <param id="0" name="Variable">MagicEnabled</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="3" name="Set progress" sid="406571252477963" type="MagicBar">
+                    <param id="0" name="Value">100</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="693810981154743" title="Collision">
             <sub-events>
+                <event-block sid="600743414844029">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="932501940610153" type="Magic">
+                            <param id="0" name="Object">dementor</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="702312106096146" type="dementor" />
+                        <action id="-10" name="Add to" sid="207805985964564" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="708364749267705" type="Text">
+                            <param id="0" name="Text">Score</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="947984216063579">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="740223575746410" type="harry">
@@ -209,7 +279,7 @@
                     <param id="0" name="Instance variable">passed</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="7" name="Set mirrored" sid="141743437224072" type="dementor">
+                <action disabled="1" id="7" name="Set mirrored" sid="141743437224072" type="dementor">
                     <param id="0" name="State">0</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="384154870182965" type="dementor">
@@ -222,6 +292,14 @@
                 <action id="0" name="Set text" sid="834844552292408" type="Text">
                     <param id="0" name="Text">Score</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="551628223393219">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="644036482090654" type="Magic" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="904860505439004" type="Magic" />
             </actions>
         </event-block>
     </events>
