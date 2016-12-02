@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
-        <variable constant="0" name="MagicEnabled" sid="119233102417222" static="0" type="number">1</variable>
         <variable constant="0" name="isDead" sid="617685113623583" static="0" type="number">0</variable>
         <variable constant="0" name="Score" sid="882726423624608" static="0" type="number">0</variable>
         <event-group description="" sid="817226617199883" title="Game">
@@ -76,7 +75,7 @@
                             <param id="3" name="Y">int(random(0,720))</param>
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" sid="432236181523216" type="dementor">
-                            <param id="0" name="Speed">int(random(150,450))</param>
+                            <param id="0" name="Speed">int(random(150,450))+Score</param>
                         </action>
                     </actions>
                 </event-block>
@@ -134,6 +133,11 @@
                         <action id="-1" name="Set X" sid="913363910737750" type="harry">
                             <param id="0" name="X">Self.X+1</param>
                         </action>
+                        <action id="-28" name="Set effect parameter" sid="553478195861720" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="100452079768740">
@@ -190,10 +194,9 @@
                 <condition id="0" name="On key pressed" sid="262116518049871" type="Keyboard">
                     <param id="0" name="Key">17 (Ctrl)</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="865065742780477" type="System">
-                    <param id="0" name="Variable">MagicEnabled</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
+                <condition id="1" name="Compare progress" sid="865065742780477" type="MagicBar">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">MagicBar.Maximum</param>
                 </condition>
             </conditions>
             <actions>
@@ -207,33 +210,8 @@
                     <param id="1" name="X">1400</param>
                     <param id="2" name="Y">Self.Y</param>
                 </action>
-                <action id="-9" name="Set value" sid="123143222967574" type="System">
-                    <param id="0" name="Variable">MagicEnabled</param>
-                    <param id="1" name="Value">0</param>
-                </action>
                 <action id="3" name="Set progress" sid="220976235521923" type="MagicBar">
                     <param id="0" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="474729853635830">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="512290479498706" type="System">
-                    <param id="0" name="Variable">MagicEnabled</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-6" name="Every X seconds" sid="535375439815001" type="System">
-                    <param id="0" name="Interval (seconds)">8</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="746728109523469" type="System">
-                    <param id="0" name="Variable">MagicEnabled</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="3" name="Set progress" sid="406571252477963" type="MagicBar">
-                    <param id="0" name="Value">100</param>
                 </action>
             </actions>
         </event-block>
@@ -266,6 +244,16 @@
                         <action behavior="Platform" id="8" name="Set vector X" sid="338803834659974" type="harry">
                             <param id="0" name="Vector X">-500</param>
                         </action>
+                        <action id="-28" name="Set effect parameter" sid="584062298536371" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">angle(harry.X, harry.Y,dementor.X,dementor.Y)+180</param>
+                        </action>
+                        <action id="-28" name="Set effect parameter" sid="761946496694487" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">1</param>
+                            <param id="2" name="Value">25</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block any="1" sid="369412785572143">
@@ -281,6 +269,17 @@
                         <action id="-9" name="Set value" sid="641477807615974" type="System">
                             <param id="0" name="Variable">isDead</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="179575072885836">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="505094042374350" type="harry" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="669379447559945" type="harry">
+                            <param id="0" name="X">200</param>
+                            <param id="1" name="Y">380</param>
                         </action>
                     </actions>
                 </event-block>
@@ -315,6 +314,9 @@
                 </action>
                 <action id="0" name="Set text" sid="834844552292408" type="Text">
                     <param id="0" name="Text">Score</param>
+                </action>
+                <action id="3" name="Set progress" sid="736411840343592" type="MagicBar">
+                    <param id="0" name="Value">MagicBar.Progress+1</param>
                 </action>
             </actions>
         </event-block>

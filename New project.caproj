@@ -22,7 +22,6 @@
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
-        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
@@ -120,9 +119,6 @@
                 </behavior-type>
                 <behavior-type name="Bullet" sid="319159307806680">
                     <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="DestroyOutsideLayout" sid="665472316224252">
-                    <behavior id="destroy" />
                 </behavior-type>
                 <behavior-type name="Sine" sid="925591212634973">
                     <behavior id="Sin" />

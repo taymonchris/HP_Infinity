@@ -267,7 +267,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="DestroyOutsideLayout" />
                         <behavior-instance type="Sine">
                             <properties>
                                 <active-on-start>Yes</active-on-start>
@@ -513,8 +512,8 @@
                 </instance>
                 <instance type="MagicBar" uid="9">
                     <properties>
-                        <value>100</value>
-                        <maximum>100</maximum>
+                        <value>0</value>
+                        <maximum>10</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional></id-optional>
@@ -562,22 +561,22 @@
                 <instance type="Particles4" uid="15">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -608,22 +607,22 @@
                 <instance type="Particles4" uid="17">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -654,22 +653,22 @@
                 <instance type="Particles4" uid="18">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -700,22 +699,22 @@
                 <instance type="Particles4" uid="19">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -746,22 +745,22 @@
                 <instance type="Particles4" uid="20">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -792,22 +791,22 @@
                 <instance type="Particles4" uid="21">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -838,22 +837,22 @@
                 <instance type="Particles4" uid="22">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -884,22 +883,22 @@
                 <instance type="Particles4" uid="23">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -930,22 +929,22 @@
                 <instance type="Particles4" uid="24">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -976,22 +975,22 @@
                 <instance type="Particles4" uid="25">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1022,22 +1021,22 @@
                 <instance type="Particles4" uid="26">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1068,22 +1067,22 @@
                 <instance type="Particles4" uid="27">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1114,22 +1113,22 @@
                 <instance type="Particles4" uid="28">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1160,22 +1159,22 @@
                 <instance type="Particles4" uid="29">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1206,22 +1205,22 @@
                 <instance type="Particles4" uid="30">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1252,22 +1251,22 @@
                 <instance type="Particles4" uid="31">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1298,22 +1297,22 @@
                 <instance type="Particles4" uid="32">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1344,22 +1343,22 @@
                 <instance type="Particles4" uid="33">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1390,22 +1389,22 @@
                 <instance type="Particles4" uid="34">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1436,22 +1435,22 @@
                 <instance type="Particles4" uid="35">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1482,22 +1481,22 @@
                 <instance type="Particles4" uid="36">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1528,22 +1527,22 @@
                 <instance type="Particles4" uid="37">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1574,22 +1573,22 @@
                 <instance type="Particles4" uid="38">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1620,22 +1619,22 @@
                 <instance type="Particles4" uid="39">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1666,22 +1665,22 @@
                 <instance type="Particles4" uid="40">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1712,22 +1711,22 @@
                 <instance type="Particles4" uid="41">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1758,22 +1757,22 @@
                 <instance type="Particles4" uid="42">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1804,22 +1803,22 @@
                 <instance type="Particles4" uid="43">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1850,22 +1849,22 @@
                 <instance type="Particles4" uid="44">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1896,22 +1895,22 @@
                 <instance type="Particles4" uid="45">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1942,22 +1941,22 @@
                 <instance type="Particles4" uid="46">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -1988,22 +1987,22 @@
                 <instance type="Particles4" uid="47">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2034,22 +2033,22 @@
                 <instance type="Particles4" uid="48">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2080,22 +2079,22 @@
                 <instance type="Particles4" uid="49">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2126,22 +2125,22 @@
                 <instance type="Particles4" uid="50">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2172,22 +2171,22 @@
                 <instance type="Particles4" uid="51">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2218,22 +2217,22 @@
                 <instance type="Particles4" uid="52">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2264,22 +2263,22 @@
                 <instance type="Particles4" uid="53">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2310,22 +2309,22 @@
                 <instance type="Particles4" uid="54">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2356,22 +2355,22 @@
                 <instance type="Particles4" uid="55">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2402,22 +2401,22 @@
                 <instance type="Particles4" uid="56">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2448,22 +2447,22 @@
                 <instance type="Particles4" uid="57">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2494,22 +2493,22 @@
                 <instance type="Particles4" uid="58">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2540,22 +2539,22 @@
                 <instance type="Particles4" uid="59">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2586,22 +2585,22 @@
                 <instance type="Particles4" uid="60">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2632,22 +2631,22 @@
                 <instance type="Particles4" uid="61">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2678,22 +2677,22 @@
                 <instance type="Particles4" uid="62">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2724,22 +2723,22 @@
                 <instance type="Particles4" uid="63">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2770,22 +2769,22 @@
                 <instance type="Particles4" uid="64">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2816,22 +2815,22 @@
                 <instance type="Particles4" uid="65">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2862,22 +2861,22 @@
                 <instance type="Particles4" uid="66">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2908,22 +2907,22 @@
                 <instance type="Particles4" uid="67">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -2954,22 +2953,22 @@
                 <instance type="Particles4" uid="68">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3000,22 +2999,22 @@
                 <instance type="Particles4" uid="69">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3046,22 +3045,22 @@
                 <instance type="Particles4" uid="70">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3092,22 +3091,22 @@
                 <instance type="Particles4" uid="71">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3138,22 +3137,22 @@
                 <instance type="Particles4" uid="72">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3184,22 +3183,22 @@
                 <instance type="Particles4" uid="73">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3230,22 +3229,22 @@
                 <instance type="Particles4" uid="74">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3276,22 +3275,22 @@
                 <instance type="Particles4" uid="75">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3322,22 +3321,22 @@
                 <instance type="Particles4" uid="76">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3368,22 +3367,22 @@
                 <instance type="Particles4" uid="77">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3414,22 +3413,22 @@
                 <instance type="Particles4" uid="78">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3460,22 +3459,22 @@
                 <instance type="Particles4" uid="79">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3506,22 +3505,22 @@
                 <instance type="Particles4" uid="80">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3552,22 +3551,22 @@
                 <instance type="Particles4" uid="81">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3598,22 +3597,22 @@
                 <instance type="Particles4" uid="82">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3644,22 +3643,22 @@
                 <instance type="Particles4" uid="83">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3690,22 +3689,22 @@
                 <instance type="Particles4" uid="84">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3736,22 +3735,22 @@
                 <instance type="Particles4" uid="85">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3782,22 +3781,22 @@
                 <instance type="Particles4" uid="86">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3828,22 +3827,22 @@
                 <instance type="Particles4" uid="87">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3874,22 +3873,22 @@
                 <instance type="Particles4" uid="88">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3920,22 +3919,22 @@
                 <instance type="Particles4" uid="89">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -3966,22 +3965,22 @@
                 <instance type="Particles4" uid="90">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4012,22 +4011,22 @@
                 <instance type="Particles4" uid="91">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4058,22 +4057,22 @@
                 <instance type="Particles4" uid="92">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4104,22 +4103,22 @@
                 <instance type="Particles4" uid="93">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4150,22 +4149,22 @@
                 <instance type="Particles4" uid="94">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4196,22 +4195,22 @@
                 <instance type="Particles4" uid="95">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4242,22 +4241,22 @@
                 <instance type="Particles4" uid="96">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4288,22 +4287,22 @@
                 <instance type="Particles4" uid="97">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4334,22 +4333,22 @@
                 <instance type="Particles4" uid="98">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4380,22 +4379,22 @@
                 <instance type="Particles4" uid="99">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4426,22 +4425,22 @@
                 <instance type="Particles4" uid="100">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4472,22 +4471,22 @@
                 <instance type="Particles4" uid="101">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4518,22 +4517,22 @@
                 <instance type="Particles4" uid="102">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4564,22 +4563,22 @@
                 <instance type="Particles4" uid="103">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4610,22 +4609,22 @@
                 <instance type="Particles4" uid="104">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
@@ -4656,22 +4655,22 @@
                 <instance type="Particles4" uid="105">
                     <properties>
                         <rate>100</rate>
-                        <spray-cone>90</spray-cone>
+                        <spray-cone>110</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
                         <size>64</size>
-                        <opacity>60</opacity>
+                        <opacity>75</opacity>
                         <grow-rate>-10</grow-rate>
-                        <x-randomiser>0</x-randomiser>
-                        <y-randomiser>0</y-randomiser>
-                        <speed-randomiser->0</speed-randomiser->
-                        <size-randomiser>0</size-randomiser>
-                        <grow-rate-randomiser>0</grow-rate-randomiser>
+                        <x-randomiser>20</x-randomiser>
+                        <y-randomiser>20</y-randomiser>
+                        <speed-randomiser->20</speed-randomiser->
+                        <size-randomiser>20</size-randomiser>
+                        <grow-rate-randomiser>20</grow-rate-randomiser>
                         <particle-lifetime-properties></particle-lifetime-properties>
                         <acceleration>-150</acceleration>
                         <gravity>0</gravity>
-                        <angle-randomiser>0</angle-randomiser>
+                        <angle-randomiser>20</angle-randomiser>
                         <speed-randomiser>800</speed-randomiser>
                         <opacity-randomiser>0</opacity-randomiser>
                         <destroy-mode>Fade to invisible</destroy-mode>
