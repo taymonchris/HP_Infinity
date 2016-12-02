@@ -4,7 +4,6 @@
     <name>Event sheet 1</name>
     <events>
         <variable constant="0" name="MagicEnabled" sid="119233102417222" static="0" type="number">1</variable>
-        <variable constant="1" name="GAPSIZE" sid="181894083303103" static="0" type="number">175</variable>
         <variable constant="0" name="isDead" sid="617685113623583" static="0" type="number">0</variable>
         <variable constant="0" name="Score" sid="882726423624608" static="0" type="number">0</variable>
         <event-group description="" sid="817226617199883" title="Game">
@@ -16,7 +15,7 @@
                                 <condition id="-2" name="On start of layout" sid="437275369377484" type="System" />
                             </conditions>
                             <actions>
-                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="830616553080777" type="TiledBackground">
+                                <action behavior="Bullet" id="3" name="Set angle of motion" sid="830616553080777" type="midground">
                                     <param id="0" name="Angle">-180</param>
                                 </action>
                                 <action behavior="Bullet" id="3" name="Set angle of motion" sid="624673869555423" type="ground">
@@ -40,10 +39,13 @@
                                 <action behavior="Bullet" id="5" name="Set enabled" sid="728061338751241" type="ground">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action behavior="Bullet" id="5" name="Set enabled" sid="182356926192125" type="TiledBackground">
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="182356926192125" type="midground">
                                     <param id="0" name="State">0</param>
                                 </action>
                                 <action behavior="Bullet" id="5" name="Set enabled" sid="284599094556052" type="dementor">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Bullet" id="5" name="Set enabled" sid="884138761735118" type="background">
                                     <param id="0" name="State">0</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="522954810706540" type="System">
@@ -74,7 +76,7 @@
                             <param id="3" name="Y">int(random(0,720))</param>
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" sid="432236181523216" type="dementor">
-                            <param id="0" name="Speed">int(random(150,300))</param>
+                            <param id="0" name="Speed">int(random(150,450))</param>
                         </action>
                     </actions>
                 </event-block>
@@ -84,27 +86,31 @@
             <sub-events>
                 <event-block sid="405320057405745">
                     <conditions>
-                        <condition id="-1" name="Compare X" sid="670416072157838" type="TiledBackground">
-                            <param id="0" name="Comparison">2</param>
-                            <param id="1" name="X co-ordinate">-1*(TiledBackground.Width-WindowWidth)</param>
-                        </condition>
+                        <condition id="-4" name="Is outside layout" sid="670416072157838" type="midground" />
                     </conditions>
                     <actions>
-                        <action id="-1" name="Set X" sid="725246921581103" type="TiledBackground">
-                            <param id="0" name="X">0</param>
+                        <action id="-1" name="Set X" sid="725246921581103" type="midground">
+                            <param id="0" name="X">1280</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="957620569758927">
                     <conditions>
-                        <condition id="-1" name="Compare X" sid="424770462226090" type="ground">
-                            <param id="0" name="Comparison">2</param>
-                            <param id="1" name="X co-ordinate">-1*(ground.Width-WindowWidth)</param>
-                        </condition>
+                        <condition id="-4" name="Is outside layout" sid="424770462226090" type="ground" />
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="958879936530814" type="ground">
-                            <param id="0" name="X">0</param>
+                            <param id="0" name="X">1280</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="129628206285355">
+                    <conditions>
+                        <condition id="-4" name="Is outside layout" sid="311754042433964" type="background" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="611158354949451" type="background">
+                            <param id="0" name="X">1277</param>
                         </action>
                     </actions>
                 </event-block>
@@ -112,6 +118,24 @@
         </event-group>
         <event-group description="" sid="262715346772963" title="Player">
             <sub-events>
+                <comment>Harry recupera sua distancia  a cada 1 segundo</comment>
+                <event-block sid="309350475755542">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="347636825402465" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="243405789142077" type="System">
+                            <param id="0" name="First value">harry.X</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">426</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="913363910737750" type="harry">
+                            <param id="0" name="X">Self.X+1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="100452079768740">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="857579587485133" type="Keyboard">
@@ -175,7 +199,7 @@
             <actions>
                 <action id="0" name="Spawn another object" sid="113724610204234" type="harry">
                     <param id="0" name="Object">Magic</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">2</param>
                     <param id="2" name="Image point">1</param>
                 </action>
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="185091680508351" type="Magic">
@@ -300,6 +324,17 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="904860505439004" type="Magic" />
+            </actions>
+        </event-block>
+        <event-block sid="644501621004182">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="432440710801763" type="dementor">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-50</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="443421755992503" type="dementor" />
             </actions>
         </event-block>
     </events>

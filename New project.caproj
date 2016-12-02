@@ -11,6 +11,7 @@
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -25,7 +26,8 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="Scirra" id="brightness">Brightness</effect>
+        <effect author="chrisbrobs" id="directionblur">DirectionBlur</effect>
+        <effect author="Scirra" id="pixellate">Pixellate</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -53,14 +55,14 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="TiledBackground" sid="921327568757288">
+        <object-type name="midground" sid="921327568757288">
             <plugin id="TiledBg" />
             <behaviors>
                 <behavior-type name="Bullet" sid="614058502666885">
                     <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
-            <texture />
+            <texture original-source="C:\Users\Taymon\Pictures\B3.png" />
         </object-type>
         <object-type name="ground" sid="823671960097916">
             <plugin id="TiledBg" />
@@ -72,7 +74,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture />
+            <texture original-source="C:\Users\Taymon\Pictures\B4.png" />
         </object-type>
         <object-type name="harry" sid="643417704628597">
             <plugin id="Sprite" />
@@ -81,6 +83,11 @@
                     <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
+            <effects>
+                <effect-type name="DirectionBlur">
+                    <effect id="directionblur" />
+                </effect-type>
+            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741725064782910" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -139,14 +146,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811182108824072" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0" y="0.326389" />
-                            <point x="1" y="0.326389" />
-                            <point x="1" y="0.673611" />
-                            <point x="0" y="0.673611" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -171,6 +171,37 @@
         </object-type>
         <object-type name="MagicMeter" sid="947771531591377">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="background" sid="751430305416689">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="904584696409444">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Taymon\Pictures\BG5.png" />
+        </object-type>
+        <object-type name="Particles4" sid="662390886730689">
+            <plugin id="Particles" />
+            <effects>
+                <effect-type name="Pixellate">
+                    <effect id="pixellate" />
+                </effect-type>
+            </effects>
+            <texture original-source="C:\Users\George\Documents\Pós\Harry Potter\fumaça.png" />
+        </object-type>
+        <object-type name="Sprite" sid="448207196093445">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="723400161933895">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290264825512147" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
