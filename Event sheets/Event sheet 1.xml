@@ -20,6 +20,12 @@
                                 <action behavior="Bullet" id="3" name="Set angle of motion" sid="624673869555423" type="ground">
                                     <param id="0" name="Angle">-180</param>
                                 </action>
+                                <action id="0" name="Play" sid="387572241858307" type="Audio">
+                                    <param id="0" name="Audio file">Five Armies</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -133,11 +139,6 @@
                         <action id="-1" name="Set X" sid="913363910737750" type="harry">
                             <param id="0" name="X">Self.X+1</param>
                         </action>
-                        <action id="-28" name="Set effect parameter" sid="553478195861720" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
-                            <param id="1" name="Parameter index">1</param>
-                            <param id="2" name="Value">0</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="100452079768740">
@@ -154,6 +155,12 @@
                     <actions>
                         <action behavior="Platform" id="9" name="Set vector Y" sid="179802802133520" type="harry">
                             <param id="0" name="Vector Y">-600</param>
+                        </action>
+                        <action id="0" name="Play" sid="562122454112616" type="Audio">
+                            <param id="0" name="Audio file">Gust</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -213,6 +220,12 @@
                 <action id="3" name="Set progress" sid="220976235521923" type="MagicBar">
                     <param id="0" name="Value">0</param>
                 </action>
+                <action id="0" name="Play" sid="977472896760571" type="Audio">
+                    <param id="0" name="Audio file">Magic</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="693810981154743" title="Collision">
@@ -244,15 +257,11 @@
                         <action behavior="Platform" id="8" name="Set vector X" sid="338803834659974" type="harry">
                             <param id="0" name="Vector X">-500</param>
                         </action>
-                        <action id="-28" name="Set effect parameter" sid="584062298536371" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
-                            <param id="1" name="Parameter index">0</param>
-                            <param id="2" name="Value">angle(harry.X, harry.Y,dementor.X,dementor.Y)+180</param>
-                        </action>
-                        <action id="-28" name="Set effect parameter" sid="761946496694487" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
-                            <param id="1" name="Parameter index">1</param>
-                            <param id="2" name="Value">25</param>
+                        <action id="0" name="Play" sid="826296417260463" type="Audio">
+                            <param id="0" name="Audio file">GhostSounds</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -269,6 +278,16 @@
                         <action id="-9" name="Set value" sid="641477807615974" type="System">
                             <param id="0" name="Variable">isDead</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="628551995182940" type="Audio">
+                            <param id="0" name="Audio file">Fall</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="694386622879623" type="harry">
+                            <param id="0" name="Animation">&quot;Death&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>

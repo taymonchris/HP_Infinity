@@ -10,6 +10,7 @@
     <unique-id>1fx9kz01dzc4v</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -25,7 +26,6 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="chrisbrobs" id="directionblur">DirectionBlur</effect>
         <effect author="Scirra" id="pixellate">Pixellate</effect>
     </used-effects>
     <configurations>
@@ -82,24 +82,32 @@
                     <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
-            <effects>
-                <effect-type name="DirectionBlur">
-                    <effect id="directionblur" />
-                </effect-type>
-            </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741725064782910" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Magic Spawn" x="1.14063" y="0.444444" />
+                    <frame duration="1" hotspotX="0.514852" hotspotY="0.5" original-source="C:\Users\lichk\Desktop\Pos\harry-2.png">
+                        <image-point name="Magic Spawn" x="1.54455" y="0.432432" />
                         <collision-poly>
-                            <point x="0.414062" y="0.416667" />
-                            <point x="0.5" y="0.333333" />
-                            <point x="0.585938" y="0.416667" />
-                            <point x="0.617188" y="0.5" />
-                            <point x="0.601563" y="0.611111" />
-                            <point x="0.5" y="0.666667" />
-                            <point x="0.398438" y="0.611111" />
-                            <point x="0.367188" y="0.5" />
+                            <point x="0.366337" y="0.743243" />
+                            <point x="0.514852" y="0.135135" />
+                            <point x="0.990099" y="0.297297" />
+                            <point x="0.960396" y="0.5" />
+                            <point x="0.930693" y="0.621622" />
+                            <point x="0.514852" y="0.905405" />
+                            <point x="0.485149" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Death" pingpong="0" repeatcount="1" repeatto="0" sid="887076243200942" speed="5">
+                    <frame duration="1" hotspotX="0.629032" hotspotY="0.423729" original-source="C:\Users\lichk\Desktop\Pos\harry-3.png">
+                        <collision-poly>
+                            <point x="0.209677" y="0.0677966" />
+                            <point x="0.612903" y="0.0169492" />
+                            <point x="0.935484" y="0.169492" />
+                            <point x="0.983871" y="0.423729" />
+                            <point x="0.887097" y="0.627119" />
+                            <point x="0.612903" y="0.881356" />
+                            <point x="0.209677" y="0.779661" />
+                            <point x="0.0645161" y="0.423729" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -126,7 +134,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722113581543966" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.52907" hotspotY="0.482993" original-source="C:\Users\lichk\Desktop\Pos\dementador.png">
+                        <collision-poly>
+                            <point x="0.0930233" y="0.346939" />
+                            <point x="0.52907" y="0.142857" />
+                            <point x="0.848837" y="0.482993" />
+                            <point x="0.877907" y="0.482993" />
+                            <point x="0.936047" y="0.585034" />
+                            <point x="0.52907" y="0.721088" />
+                            <point x="0.180233" y="0.517007" />
+                            <point x="0.180233" y="0.482993" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -199,6 +218,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Audio" sid="443794017481578">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -209,9 +231,35 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="4" />
+        <global-instance type="Audio" uid="14">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="Fall.m4a" />
+        <file name="Fall.ogg" />
+        <file name="Magic.m4a" />
+        <file name="Magic.ogg" />
+        <file name="Gust.m4a" />
+        <file name="Gust.ogg" />
+        <file name="GhostSounds.m4a" />
+        <file name="GhostSounds.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="Five Armies.m4a" />
+        <file name="Five Armies.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

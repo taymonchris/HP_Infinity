@@ -49,7 +49,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
+                        <x>-9</x>
                         <y>0</y>
                         <z>0</z>
                         <width>1280</width>
@@ -81,8 +81,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1280</x>
-                        <y>0</y>
+                        <x>1266</x>
+                        <y>-1</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>720</height>
@@ -218,24 +218,16 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="DirectionBlur">
-                            <parameters>
-                                <angle>0</angle>
-                                <bluramount>0</bluramount>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>426</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>128</width>
-                        <height>72</height>
+                        <width>101</width>
+                        <height>74</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.514851511</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -287,11 +279,11 @@
                         <x>1198</x>
                         <y>387</y>
                         <z>0</z>
-                        <width>144</width>
-                        <height>180</height>
+                        <width>172</width>
+                        <height>147</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.529069781</hotspotX>
+                        <hotspotY>0.482993186</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -560,8 +552,8 @@
                 </instance>
                 <instance type="Particles4" uid="15">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -606,8 +598,8 @@
                 </instance>
                 <instance type="Particles4" uid="17">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -652,8 +644,8 @@
                 </instance>
                 <instance type="Particles4" uid="18">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -698,8 +690,8 @@
                 </instance>
                 <instance type="Particles4" uid="19">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -744,8 +736,8 @@
                 </instance>
                 <instance type="Particles4" uid="20">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -790,8 +782,8 @@
                 </instance>
                 <instance type="Particles4" uid="21">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -836,8 +828,8 @@
                 </instance>
                 <instance type="Particles4" uid="22">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -882,8 +874,8 @@
                 </instance>
                 <instance type="Particles4" uid="23">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -928,8 +920,8 @@
                 </instance>
                 <instance type="Particles4" uid="24">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -974,8 +966,8 @@
                 </instance>
                 <instance type="Particles4" uid="25">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1020,8 +1012,8 @@
                 </instance>
                 <instance type="Particles4" uid="26">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1066,8 +1058,8 @@
                 </instance>
                 <instance type="Particles4" uid="27">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1112,8 +1104,8 @@
                 </instance>
                 <instance type="Particles4" uid="28">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1158,8 +1150,8 @@
                 </instance>
                 <instance type="Particles4" uid="29">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1204,8 +1196,8 @@
                 </instance>
                 <instance type="Particles4" uid="30">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1250,8 +1242,8 @@
                 </instance>
                 <instance type="Particles4" uid="31">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1296,8 +1288,8 @@
                 </instance>
                 <instance type="Particles4" uid="32">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1342,8 +1334,8 @@
                 </instance>
                 <instance type="Particles4" uid="33">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1388,8 +1380,8 @@
                 </instance>
                 <instance type="Particles4" uid="34">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1434,8 +1426,8 @@
                 </instance>
                 <instance type="Particles4" uid="35">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1480,8 +1472,8 @@
                 </instance>
                 <instance type="Particles4" uid="36">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1526,8 +1518,8 @@
                 </instance>
                 <instance type="Particles4" uid="37">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1572,8 +1564,8 @@
                 </instance>
                 <instance type="Particles4" uid="38">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1618,8 +1610,8 @@
                 </instance>
                 <instance type="Particles4" uid="39">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1664,8 +1656,8 @@
                 </instance>
                 <instance type="Particles4" uid="40">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1710,8 +1702,8 @@
                 </instance>
                 <instance type="Particles4" uid="41">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1756,8 +1748,8 @@
                 </instance>
                 <instance type="Particles4" uid="42">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1802,8 +1794,8 @@
                 </instance>
                 <instance type="Particles4" uid="43">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1848,8 +1840,8 @@
                 </instance>
                 <instance type="Particles4" uid="44">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1894,8 +1886,8 @@
                 </instance>
                 <instance type="Particles4" uid="45">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1940,8 +1932,8 @@
                 </instance>
                 <instance type="Particles4" uid="46">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -1986,8 +1978,8 @@
                 </instance>
                 <instance type="Particles4" uid="47">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2032,8 +2024,8 @@
                 </instance>
                 <instance type="Particles4" uid="48">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2078,8 +2070,8 @@
                 </instance>
                 <instance type="Particles4" uid="49">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2124,8 +2116,8 @@
                 </instance>
                 <instance type="Particles4" uid="50">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2170,8 +2162,8 @@
                 </instance>
                 <instance type="Particles4" uid="51">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2216,8 +2208,8 @@
                 </instance>
                 <instance type="Particles4" uid="52">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2262,8 +2254,8 @@
                 </instance>
                 <instance type="Particles4" uid="53">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2308,8 +2300,8 @@
                 </instance>
                 <instance type="Particles4" uid="54">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2354,8 +2346,8 @@
                 </instance>
                 <instance type="Particles4" uid="55">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2400,8 +2392,8 @@
                 </instance>
                 <instance type="Particles4" uid="56">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2446,8 +2438,8 @@
                 </instance>
                 <instance type="Particles4" uid="57">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2492,8 +2484,8 @@
                 </instance>
                 <instance type="Particles4" uid="58">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2538,8 +2530,8 @@
                 </instance>
                 <instance type="Particles4" uid="59">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2584,8 +2576,8 @@
                 </instance>
                 <instance type="Particles4" uid="60">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2630,8 +2622,8 @@
                 </instance>
                 <instance type="Particles4" uid="61">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2676,8 +2668,8 @@
                 </instance>
                 <instance type="Particles4" uid="62">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2722,8 +2714,8 @@
                 </instance>
                 <instance type="Particles4" uid="63">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2768,8 +2760,8 @@
                 </instance>
                 <instance type="Particles4" uid="64">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2814,8 +2806,8 @@
                 </instance>
                 <instance type="Particles4" uid="65">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2860,8 +2852,8 @@
                 </instance>
                 <instance type="Particles4" uid="66">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2906,8 +2898,8 @@
                 </instance>
                 <instance type="Particles4" uid="67">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2952,8 +2944,8 @@
                 </instance>
                 <instance type="Particles4" uid="68">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -2998,8 +2990,8 @@
                 </instance>
                 <instance type="Particles4" uid="69">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3044,8 +3036,8 @@
                 </instance>
                 <instance type="Particles4" uid="70">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3090,8 +3082,8 @@
                 </instance>
                 <instance type="Particles4" uid="71">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3136,8 +3128,8 @@
                 </instance>
                 <instance type="Particles4" uid="72">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3182,8 +3174,8 @@
                 </instance>
                 <instance type="Particles4" uid="73">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3228,8 +3220,8 @@
                 </instance>
                 <instance type="Particles4" uid="74">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3274,8 +3266,8 @@
                 </instance>
                 <instance type="Particles4" uid="75">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3320,8 +3312,8 @@
                 </instance>
                 <instance type="Particles4" uid="76">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3366,8 +3358,8 @@
                 </instance>
                 <instance type="Particles4" uid="77">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3412,8 +3404,8 @@
                 </instance>
                 <instance type="Particles4" uid="78">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3458,8 +3450,8 @@
                 </instance>
                 <instance type="Particles4" uid="79">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3504,8 +3496,8 @@
                 </instance>
                 <instance type="Particles4" uid="80">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3550,8 +3542,8 @@
                 </instance>
                 <instance type="Particles4" uid="81">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3596,8 +3588,8 @@
                 </instance>
                 <instance type="Particles4" uid="82">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3642,8 +3634,8 @@
                 </instance>
                 <instance type="Particles4" uid="83">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3688,8 +3680,8 @@
                 </instance>
                 <instance type="Particles4" uid="84">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3734,8 +3726,8 @@
                 </instance>
                 <instance type="Particles4" uid="85">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3780,8 +3772,8 @@
                 </instance>
                 <instance type="Particles4" uid="86">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3826,8 +3818,8 @@
                 </instance>
                 <instance type="Particles4" uid="87">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3872,8 +3864,8 @@
                 </instance>
                 <instance type="Particles4" uid="88">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3918,8 +3910,8 @@
                 </instance>
                 <instance type="Particles4" uid="89">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -3964,8 +3956,8 @@
                 </instance>
                 <instance type="Particles4" uid="90">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4010,8 +4002,8 @@
                 </instance>
                 <instance type="Particles4" uid="91">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4056,8 +4048,8 @@
                 </instance>
                 <instance type="Particles4" uid="92">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4102,8 +4094,8 @@
                 </instance>
                 <instance type="Particles4" uid="93">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4148,8 +4140,8 @@
                 </instance>
                 <instance type="Particles4" uid="94">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4194,8 +4186,8 @@
                 </instance>
                 <instance type="Particles4" uid="95">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4240,8 +4232,8 @@
                 </instance>
                 <instance type="Particles4" uid="96">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4286,8 +4278,8 @@
                 </instance>
                 <instance type="Particles4" uid="97">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4332,8 +4324,8 @@
                 </instance>
                 <instance type="Particles4" uid="98">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4378,8 +4370,8 @@
                 </instance>
                 <instance type="Particles4" uid="99">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4424,8 +4416,8 @@
                 </instance>
                 <instance type="Particles4" uid="100">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4470,8 +4462,8 @@
                 </instance>
                 <instance type="Particles4" uid="101">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4516,8 +4508,8 @@
                 </instance>
                 <instance type="Particles4" uid="102">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4562,8 +4554,8 @@
                 </instance>
                 <instance type="Particles4" uid="103">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4608,8 +4600,8 @@
                 </instance>
                 <instance type="Particles4" uid="104">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
@@ -4654,8 +4646,8 @@
                 </instance>
                 <instance type="Particles4" uid="105">
                     <properties>
-                        <rate>100</rate>
-                        <spray-cone>110</spray-cone>
+                        <rate>8</rate>
+                        <spray-cone>10</spray-cone>
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>120</speed>
