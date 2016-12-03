@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+        <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -92,16 +93,16 @@
             </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741725064782910" speed="5">
-                    <frame duration="1" hotspotX="0.514852" hotspotY="0.5" original-source="C:\Users\lichk\Desktop\Pos\harry-2.png">
-                        <image-point name="Magic Spawn" x="1.54455" y="0.432432" />
+                    <frame duration="1" hotspotX="0.512346" hotspotY="0.5" original-source="C:\Users\Taymon\Downloads\drive-download-20161202T183307Z\harry-1.png">
+                        <image-point name="Magic Spawn" x="1.54321" y="0.4375" />
                         <collision-poly>
-                            <point x="0.366337" y="0.743243" />
-                            <point x="0.514852" y="0.135135" />
-                            <point x="0.990099" y="0.297297" />
-                            <point x="0.960396" y="0.5" />
-                            <point x="0.930693" y="0.621622" />
-                            <point x="0.514852" y="0.905405" />
-                            <point x="0.485149" y="0.5" />
+                            <point x="0.347818" y="0.680743" />
+                            <point x="0.453124" y="0.072635" />
+                            <point x="0.835778" y="0.0729167" />
+                            <point x="0.867803" y="0.458333" />
+                            <point x="0.794891" y="0.861206" />
+                            <point x="0.490161" y="0.863738" />
+                            <point x="0.071569" y="0.84375" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -244,6 +245,9 @@
                     <behavior id="Flash" />
                 </behavior-type>
             </behaviors>
+        </object-type>
+        <object-type name="ShadowLight" sid="861612076425545">
+            <plugin id="shadowlight" />
         </object-type>
     </object-folder>
     <families />
