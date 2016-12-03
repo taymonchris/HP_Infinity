@@ -27,7 +27,7 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="chrisbrobs" id="directionblur">DirectionBlur</effect>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
         <effect author="Scirra" id="pixellate">Pixellate</effect>
     </used-effects>
     <configurations>
@@ -86,8 +86,8 @@
                 </behavior-type>
             </behaviors>
             <effects>
-                <effect-type name="DirectionBlur">
-                    <effect id="directionblur" />
+                <effect-type name="BlurHorizontal">
+                    <effect id="blurhorizontal" />
                 </effect-type>
             </effects>
             <animation-folder>
@@ -281,6 +281,7 @@
         <file name="Gust.ogg" />
         <file name="GhostSounds.m4a" />
         <file name="GhostSounds.ogg" />
+        <file name="Expecto_Patronum.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="Five Armies.m4a" />

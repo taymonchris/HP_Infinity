@@ -187,10 +187,9 @@
                         </behavior-instance>
                     </behavior-instances>
                     <effect-instances>
-                        <effect-instance type="DirectionBlur">
+                        <effect-instance type="BlurHorizontal">
                             <parameters>
-                                <angle>0</angle>
-                                <bluramount>0</bluramount>
+                                <intensity>1.5</intensity>
                             </parameters>
                         </effect-instance>
                     </effect-instances>

@@ -65,7 +65,7 @@
                 <event-block sid="617775306236697">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="285890166645239" type="System">
-                            <param id="0" name="Interval (seconds)">1-(Score/100)+0.5</param>
+                            <param id="0" name="Interval (seconds)">1.5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="639337887570777" type="System">
                             <param id="0" name="Variable">isDead</param>
@@ -81,7 +81,7 @@
                             <param id="3" name="Y">int(random(0,700))</param>
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" sid="432236181523216" type="dementor">
-                            <param id="0" name="Speed">int(random(150,450))+Score</param>
+                            <param id="0" name="Speed">int(random(150,450))+Score*2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -146,16 +146,16 @@
                         <action behavior="Platform" id="9" name="Set vector Y" sid="179802802133520" type="harry">
                             <param id="0" name="Vector Y">-600</param>
                         </action>
-                        <action id="-28" name="Set effect parameter" sid="890460402647350" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
-                            <param id="1" name="Parameter index">1</param>
-                            <param id="2" name="Value">0</param>
-                        </action>
                         <action id="0" name="Play" sid="562122454112616" type="Audio">
                             <param id="0" name="Audio file">Gust</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-28" name="Set effect parameter" sid="573332862829474" type="harry">
+                            <param id="0" name="Effect">&quot;BlurHorizontal&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -219,7 +219,7 @@
                     <param id="0" name="Maximum">MagicBar.Maximum+1</param>
                 </action>
                 <action id="0" name="Play" sid="977472896760571" type="Audio">
-                    <param id="0" name="Audio file">Magic</param>
+                    <param id="0" name="Audio file">Expecto_Patronum</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -283,7 +283,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Platform" id="8" name="Set vector X" sid="338803834659974" type="harry">
-                            <param id="0" name="Vector X">-500</param>
+                            <param id="0" name="Vector X">-1000</param>
                         </action>
                         <action id="0" name="Play" sid="826296417260463" type="Audio">
                             <param id="0" name="Audio file">GhostSounds</param>
@@ -291,15 +291,10 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-28" name="Set effect parameter" sid="522808979075455" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                        <action id="-28" name="Set effect parameter" sid="558821178407661" type="harry">
+                            <param id="0" name="Effect">&quot;BlurHorizontal&quot;</param>
                             <param id="1" name="Parameter index">0</param>
-                            <param id="2" name="Value">angle(Self.X,Self.Y,dementor.X,dementor.Y)+180</param>
-                        </action>
-                        <action id="-28" name="Set effect parameter" sid="754541493164863" type="harry">
-                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
-                            <param id="1" name="Parameter index">1</param>
-                            <param id="2" name="Value">20</param>
+                            <param id="2" name="Value">150</param>
                         </action>
                     </actions>
                 </event-block>
