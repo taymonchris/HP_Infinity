@@ -65,7 +65,7 @@
                 <event-block sid="617775306236697">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="285890166645239" type="System">
-                            <param id="0" name="Interval (seconds)">1.5</param>
+                            <param id="0" name="Interval (seconds)">1-(Score/100)+0.5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="639337887570777" type="System">
                             <param id="0" name="Variable">isDead</param>
@@ -78,7 +78,7 @@
                             <param id="0" name="Object to create">dementor</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">1280</param>
-                            <param id="3" name="Y">int(random(0,720))</param>
+                            <param id="3" name="Y">int(random(0,700))</param>
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" sid="432236181523216" type="dementor">
                             <param id="0" name="Speed">int(random(150,450))+Score</param>
@@ -106,16 +106,6 @@
                     <actions>
                         <action id="-1" name="Set X" sid="958879936530814" type="ground">
                             <param id="0" name="X">1280</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="129628206285355">
-                    <conditions>
-                        <condition id="-4" name="Is outside layout" sid="311754042433964" type="background" />
-                    </conditions>
-                    <actions>
-                        <action id="-1" name="Set X" sid="611158354949451" type="background">
-                            <param id="0" name="X">1277</param>
                         </action>
                     </actions>
                 </event-block>
@@ -155,6 +145,11 @@
                     <actions>
                         <action behavior="Platform" id="9" name="Set vector Y" sid="179802802133520" type="harry">
                             <param id="0" name="Vector Y">-600</param>
+                        </action>
+                        <action id="-28" name="Set effect parameter" sid="890460402647350" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">1</param>
+                            <param id="2" name="Value">0</param>
                         </action>
                         <action id="0" name="Play" sid="562122454112616" type="Audio">
                             <param id="0" name="Audio file">Gust</param>
@@ -220,11 +215,39 @@
                 <action id="3" name="Set progress" sid="220976235521923" type="MagicBar">
                     <param id="0" name="Value">0</param>
                 </action>
+                <action id="4" name="Set maximum" sid="676572725867114" type="MagicBar">
+                    <param id="0" name="Maximum">MagicBar.Maximum+1</param>
+                </action>
                 <action id="0" name="Play" sid="977472896760571" type="Audio">
                     <param id="0" name="Audio file">Magic</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="323928880288194">
+            <conditions>
+                <condition id="-10" name="Compare opacity" sid="672359847527692" type="Magic">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Opacity">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="485981503393913" type="Magic" />
+            </actions>
+        </event-block>
+        <event-block sid="859686030535671">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="263461026469445" type="Magic" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="513308771071612" type="Magic">
+                    <param id="0" name="Width">Magic.Width+10</param>
+                    <param id="1" name="Height">Magic.Height+10</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="525654151360981" type="Magic">
+                    <param id="0" name="Opacity">Magic.Opacity-0.5</param>
                 </action>
             </actions>
         </event-block>
@@ -237,7 +260,12 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="702312106096146" type="dementor" />
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="702312106096146" type="dementor">
+                            <param id="0" name="Angle">270</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="954007454383262" type="dementor">
+                            <param id="0" name="Speed">500</param>
+                        </action>
                         <action id="-10" name="Add to" sid="207805985964564" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
@@ -262,6 +290,16 @@
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-28" name="Set effect parameter" sid="522808979075455" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">angle(Self.X,Self.Y,dementor.X,dementor.Y)+180</param>
+                        </action>
+                        <action id="-28" name="Set effect parameter" sid="754541493164863" type="harry">
+                            <param id="0" name="Effect">&quot;DirectionBlur&quot;</param>
+                            <param id="1" name="Parameter index">1</param>
+                            <param id="2" name="Value">20</param>
                         </action>
                     </actions>
                 </event-block>
@@ -321,7 +359,7 @@
                     <param id="0" name="Instance variable">passed</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action disabled="1" id="7" name="Set mirrored" sid="141743437224072" type="dementor">
+                <action id="7" name="Set mirrored" sid="141743437224072" type="dementor">
                     <param id="0" name="State">0</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="384154870182965" type="dementor">
@@ -347,11 +385,15 @@
                 <action id="-9" name="Destroy" sid="904860505439004" type="Magic" />
             </actions>
         </event-block>
-        <event-block sid="644501621004182">
+        <event-block any="1" sid="644501621004182">
             <conditions>
                 <condition id="-1" name="Compare X" sid="432440710801763" type="dementor">
                     <param id="0" name="Comparison">2</param>
                     <param id="1" name="X co-ordinate">-50</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="515641070175376" type="dementor">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">-50</param>
                 </condition>
             </conditions>
             <actions>
