@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="dementorTime" sid="808094972422102" static="0" type="number">1.5</variable>
         <variable constant="0" name="isDead" sid="617685113623583" static="0" type="number">0</variable>
         <variable constant="0" name="Score" sid="882726423624608" static="0" type="number">0</variable>
         <event-group description="" sid="817226617199883" title="Game">
@@ -65,7 +66,7 @@
                 <event-block sid="617775306236697">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="285890166645239" type="System">
-                            <param id="0" name="Interval (seconds)">1.5</param>
+                            <param id="0" name="Interval (seconds)">dementorTime</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="639337887570777" type="System">
                             <param id="0" name="Variable">isDead</param>
@@ -371,6 +372,23 @@
                     <param id="0" name="Value">MagicBar.Progress+1</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="197632543790972">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="154098458669213" type="System">
+                            <param id="0" name="Variable">dementorTime</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0.5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="894983037500348" type="System">
+                            <param id="0" name="Variable">dementorTime</param>
+                            <param id="1" name="Value">0.01</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="551628223393219">
             <conditions>
